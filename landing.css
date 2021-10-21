@@ -1,0 +1,200 @@
+*   {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 3%;
+    margin: 0px;
+    background-color: black;
+}
+
+.toppart    {
+    height: 10%;
+    background-color:#1f2837;
+    display: flex;
+    padding: 0px 15%
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;    
+    height: 10%;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-top: -15px;
+    
+}
+
+.headermiddle   {
+    flex: 1;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+a   {
+    text-decoration: none;
+    padding: 14px;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+.topleftright{
+    display: flex;
+    flex: 1;
+    background-color:#1f2837;
+    padding: 6% 15%;
+    height: 200px;
+    gap: 20px;
+}
+
+.topleft{
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex: 1;
+    width: 50%;
+    padding-bottom: 30px;
+    margin-top: -30px;
+}
+
+.topleft  h3   {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: -10px;
+    width: 400px;
+}
+
+.topleft button{
+    background: #3882f6;
+    color: white;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.topright  img {
+    display: flex;    
+    flex: 1;
+    width: 65%;
+    margin: auto;
+    
+}
+
+.titlewithimages    {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardtitle{
+    padding-top: 30px;
+    font-size: 34px;
+    font-weight:bolder;
+}
+
+.cards  {
+    display: flex;
+    gap: 50px;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 80px;
+}
+
+.card {
+    height: 140px;
+    width: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+
+}
+
+.quotesection   {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    height: 13em;
+    align-items: center;
+    color: #1f2937;
+    padding: 2em 8em;
+    font-size: 36px;
+}
+
+.quote  {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+.author p{
+    text-align: end;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: -10px;
+    padding-right: 20px;
+}
+
+.call   {
+    display: flex;
+    background: white;
+    height: 18em;
+    justify-content: center;
+    align-items: center;
+}
+
+.callsection    {
+    height: 8em;
+    background: #3882f6;    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 8px;
+    padding-right: 40px;
+}
+
+#callbutton {
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 4px;
+    padding: 5px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.calltext   {
+    padding-left: 110px;
+    color: #e5e7eb;
+}
+
+#call1 {
+    margin-bottom: -15px;
+    font-weight: 560;
+    font-size: 20px;
+
+
+}
+
+.footer {
+    height: 6em;
+    background-color: #1f2837;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
